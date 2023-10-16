@@ -11,7 +11,7 @@ def item_multiply():
         numbers_new.append(numbers[i] *2)
     return numbers, numbers_new
 
-def item_sort():
+def item_sort(): #This is unneccessary.
     sub = 0
     for i in range(len(numbers)):
         if numbers[i] > numbers[i+1]:
